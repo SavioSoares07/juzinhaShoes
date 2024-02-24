@@ -6,7 +6,9 @@ export default {
 
     WHITE: "#F4EDE8",
 
-    GRAY_100: "#999591",
+    GOLDEN: "#ffd700",
+
+    GRAY_100: "#F4F4F5",
     GRAY_300: "#666360",
   },
 };

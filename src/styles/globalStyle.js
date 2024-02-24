@@ -10,6 +10,9 @@ export default createGlobalStyle`
     background-color: ${({ theme }) => theme.COLORS.WHITE};
     color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
   }
+  h1,h2,h3,h4,h5,h6,a{
+    font-family: "Roboto", sans-serif;
+  }
   a{
     text-decoration: none;
   }
