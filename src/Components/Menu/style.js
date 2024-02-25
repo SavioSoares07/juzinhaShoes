@@ -14,6 +14,10 @@ export const Container = styled.nav`
     padding: 10px;
     margin-bottom: 30px;
     font-size: 32px;
+    border-bottom: 1px solid #e1e1e1;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 20px;
   }
 
   > ul {
