@@ -7,7 +7,7 @@ export default createGlobalStyle`
     box-sizing: border-box;
   }
   body{
-    background-color: ${({ theme }) => theme.COLORS.WHITE};
+    background-color: #fff;
     color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
   }
   h1,h2,h3,h4,h5,h6,a{

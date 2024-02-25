@@ -8,6 +8,7 @@ export function Home() {
       <Menu />
       <Container></Container>
       <ContainerItem name="Chinela" />
+      <ContainerItem name="Papete" />
     </>
   );
 }
