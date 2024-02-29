@@ -6,16 +6,22 @@ export function Menu() {
       <h1>Juzinha Shoes</h1>
       <ul>
         <li>
-          <a href="#">Teste</a>
+          <a href="#">Rasteiras</a>
         </li>
         <li>
-          <a href="#">Teste</a>
+          <a href="#">Papetes</a>
         </li>
         <li>
-          <a href="#">Teste</a>
+          <a href="#">Saltinhos</a>
         </li>
         <li>
-          <a href="#">Teste</a>
+          <a href="#">Flats</a>
+        </li>
+        <li>
+          <a href="#">Plataformas</a>
+        </li>
+        <li>
+          <a href="#">Saltos</a>
         </li>
       </ul>
     </Container>

@@ -7,12 +7,14 @@ export const Container = styled.a`
   justify-content: center;
   flex-direction: column;
   border-radius: 10px;
-  max-width: 300px;
   margin-bottom: 20px;
   margin-right: 10px;
+  flex: 1; /* Esta linha faz o card ocupar todo o espaço do pai */
+  max-height: 300px;
   > img {
-    width: 300px;
-    height: 300px;
+    width: 100%; /* Para a imagem ocupar todo o espaço dentro do card */
+    max-width: 250px; /* Defina um tamanho máximo para a imagem */
+    height: auto;
     border-radius: 10px;
   }
   > p {
