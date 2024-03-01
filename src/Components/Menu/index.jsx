@@ -1,9 +1,10 @@
 import { Container } from "./style";
+import Logo from "../../assets/logo.png";
 
 export function Menu() {
   return (
     <Container>
-      <h1>Juzinha Shoes</h1>
+      <img src={Logo} />
       <ul>
         <li>
           <a href="#">Rasteiras</a>

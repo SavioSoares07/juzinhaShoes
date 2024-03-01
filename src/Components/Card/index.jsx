@@ -1,4 +1,4 @@
-import imagemTeste from "../../assets/teste.webp";
+import imagemTeste from "../../assets/Chinela6.jpg";
 import { Container } from "./style";
 
 export function Card() {

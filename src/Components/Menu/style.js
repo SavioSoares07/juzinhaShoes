@@ -9,15 +9,10 @@ export const Container = styled.nav`
   background-color: ${({ theme }) => theme.COLORS.GRAY_100};
   box-shadow: 0px 0px 5px ${({ theme }) => theme.COLORS.GRAY_100};
 
-  > h1 {
-    font-family: "Dancing Script", cursive;
-    padding: 10px;
+  > img {
+    width: 100px;
+    height: 100px;
     margin-bottom: 30px;
-    font-size: 32px;
-    border-bottom: 1px solid #e1e1e1;
-    width: 100%;
-    text-align: center;
-    padding-bottom: 20px;
   }
 
   > ul {
