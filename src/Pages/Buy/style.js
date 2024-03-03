@@ -3,7 +3,6 @@ import styled from "styled-components";
 export const Container = styled.main`
   display: flex;
   padding: 40px;
-  align-items: center;
   justify-content: space-around;
   > div {
     padding: 20px;
@@ -27,8 +26,32 @@ export const ButtonSize = styled.button`
 
 export const ColorHigh = styled.button``;
 
+export const ContainerImg = styled.div`
+  display: flex;
+  align-items: center;
+  > img {
+    width: 500px;
+    height: 300px;
+  }
+`;
+
+export const ContainerBoxImg = styled.div`
+  position: absolute;
+  left: -50px;
+
+  display: flex;
+  flex-direction: column;
+`;
+export const BoxImg = styled.img`
+  margin-bottom: 10px;
+  height: 40px;
+  width: 60px;
+  border: 1px solid #000;
+`;
+
 export const ContainerText = styled.div`
   max-width: 500px;
+  position: relative;
 `;
 
 export const TextCategory = styled.p`

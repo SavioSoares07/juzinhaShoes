@@ -7,6 +7,7 @@ export const Container = styled.section`
 `;
 
 export const ContainerBanner = styled.section`
+  position: relative;
   @keyframes arrowMove {
     0%,
     100% {

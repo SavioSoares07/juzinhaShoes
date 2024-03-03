@@ -1,4 +1,5 @@
-import Foto from "../../assets/chinela1.jpg";
+import { MenuBuy } from "../../Components/MenuBuy";
+import Foto from "../../assets/Chinela6.jpg";
 
 import {
   Container,
@@ -14,12 +15,15 @@ import {
   ContainerButtons,
   ContainerCollors,
   ColorHighContainer,
+  ContainerImg,
+  BoxImg,
+  ContainerBoxImg,
 } from "./style";
+
 export function Buy() {
   return (
     <>
-      <FakeMenu />
-
+      <MenuBuy />
       <Container>
         <ContainerText>
           <TextCategory>Sapato</TextCategory>
@@ -28,6 +32,17 @@ export function Buy() {
             The nike air edge 270 takes the look of retro basketaball and puts
             it throung a modern lens
           </TextDescription>
+
+          <ContainerImg>
+            <ContainerBoxImg>
+              <BoxImg src={Foto} />
+              <BoxImg src={Foto} />
+              <BoxImg src={Foto} />
+              <BoxImg src={Foto} />
+            </ContainerBoxImg>
+
+            <img src={Foto} />
+          </ContainerImg>
 
           <ButtonBuy>Comprar</ButtonBuy>
         </ContainerText>
