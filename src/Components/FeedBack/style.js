@@ -22,3 +22,27 @@ export const ContainerFAQ = styled.div`
 `;
 
 export const FAQSection = styled.div``;
+
+export const ContainerForm = styled.div`
+  margin-top: 50px;
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  > h1 {
+    font-size: 36px;
+  }
+  > p {
+    color: #a1a1a1;
+    margin-top: 10px;
+    font-size: 14px;
+  }
+  > div {
+    width: 70%;
+    > div {
+      display: flex;
+    }
+  }
+`;

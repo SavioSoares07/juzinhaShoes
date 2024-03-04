@@ -1,6 +1,9 @@
-import { Container, ContainerFAQ, FAQSection } from "./style";
+import { Container, ContainerFAQ, ContainerForm, FAQSection } from "./style";
 import FAQImg from "../../assets/FAQ.png";
 import { FAQ } from "../FAQ";
+import Box from "@mui/material/Box";
+import TextField from "@mui/material/TextField";
+import Button from "@mui/material/Button";
 
 export function FeedBack() {
   return (
@@ -28,6 +31,47 @@ export function FeedBack() {
           />
         </FAQSection>
       </ContainerFAQ>
+
+      <ContainerForm>
+        <h1>Faça sua pergunta</h1>
+        <p>Ficou com alguma dúvida, fale conosco!</p>
+
+        <div>
+          <Box
+            component="form"
+            sx={{
+              "& > :not(style)": { m: 1, width: "50ch" },
+            }}
+            noValidate
+            autoComplete="off"
+          >
+            <TextField
+              id="outlined-basic"
+              label="Informe seu nome..."
+              variant="outlined"
+              type="text"
+            />
+            <br />
+            <TextField
+              id="outlined-basic"
+              label="Informe seu email..."
+              variant="outlined"
+              type="email"
+            />
+            <br />
+            <TextField
+              id="outlined-basic"
+              label="Informe seu telefone..."
+              variant="outlined"
+              type="tel"
+            />
+            <br />
+            <Button variant="contained" color="success">
+              Enviar
+            </Button>
+          </Box>
+        </div>
+      </ContainerForm>
     </Container>
   );
 }
