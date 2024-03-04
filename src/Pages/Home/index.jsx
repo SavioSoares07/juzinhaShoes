@@ -6,6 +6,7 @@ import { FaChevronDown } from "react-icons/fa";
 
 import Chinela from "../../assets/Chinela6.jpg";
 import { FeedBack } from "../../Components/FeedBack";
+import { Footer } from "../../Components/Footer";
 
 export function Home() {
   return (
@@ -30,6 +31,7 @@ export function Home() {
       <ContainerFeedBack>
         <FeedBack />
       </ContainerFeedBack>
+      <Footer />
     </>
   );
 }
