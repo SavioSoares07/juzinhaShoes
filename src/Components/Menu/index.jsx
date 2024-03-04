@@ -7,22 +7,22 @@ export function Menu() {
       <img src={Logo} />
       <ul>
         <li>
-          <a href="#">Rasteiras</a>
+          <a href="#rasteiras">Rasteiras</a>
         </li>
         <li>
-          <a href="#">Papetes</a>
+          <a href="#papetes">Papetes</a>
         </li>
         <li>
-          <a href="#">Saltinhos</a>
+          <a href="#saltinhos">Saltinhos</a>
         </li>
         <li>
-          <a href="#">Flats</a>
+          <a href="#flats">Flats</a>
         </li>
         <li>
-          <a href="#">Plataformas</a>
+          <a href="#plataformas">Plataformas</a>
         </li>
         <li>
-          <a href="#">Saltos</a>
+          <a href="#saltos">Saltos</a>
         </li>
       </ul>
     </Container>

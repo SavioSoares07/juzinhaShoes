@@ -1,9 +1,9 @@
 import { Card } from "../Card";
 import { Container } from "./style";
 
-export function ContainerItem({ name }) {
+export function ContainerItem({ name, id }) {
   return (
-    <Container>
+    <Container id={id}>
       <div id="textCards">
         <h1>{name}</h1>
         <a>Ver mais</a>

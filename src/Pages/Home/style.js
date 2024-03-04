@@ -38,3 +38,6 @@ export const ContainerBanner = styled.section`
     animation: arrowMove 2s ease-in-out infinite;
   }
 `;
+export const ContainerFeedBack = styled.section`
+  border-top: 1px solid #ccc;
+`;
